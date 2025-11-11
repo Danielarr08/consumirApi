@@ -82,25 +82,6 @@ Validación	Solo se permite seleccionar ciudades válidas mediante Autocomplete.
 Sanitización	Función sanitize() limpia los textos recibidos de la API.
 Errores (429, 5xx, sin red)	Capturados y mostrados en ErrorView.
 Cache defensiva	Respuestas guardadas por 5 minutos en MemoryCache<Weather>.
-🧠 Arquitectura
-lib/
-├─ core/
-│  ├─ env.dart
-│  ├─ http_client.dart
-│  ├─ cache.dart
-│  ├─ retry.dart
-│  └─ sanitizer.dart
-├─ features/
-│  ├─ data/
-│  │  ├─ models.dart
-│  │  └─ weather_api.dart
-│  └─ ui/
-│     ├─ home_page.dart
-│     └─ widgets/
-│        ├─ weather_card.dart
-│        ├─ map_card.dart
-│        ├─ mx_data.dart
-│        └─ state_views.dart
 
 🧪 Pruebas recomendadas
 
