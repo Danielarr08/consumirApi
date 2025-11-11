@@ -4,6 +4,7 @@ Aplicación Flutter que consume la API de OpenWeatherMap para mostrar el clima a
 Incluye manejo de .env, estados (cargando, error, vacío), timeout, retry, validación de entrada y sanitización de texto.
 
 🚀 Pasos de instalación y ejecución
+
 1️⃣ Clonar y preparar el proyecto
 git clone <tu-repo>
 cd api
