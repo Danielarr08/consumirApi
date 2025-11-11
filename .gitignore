@@ -1,0 +1,69 @@
+# Misc
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IDEs
+*.iml
+*.ipr
+*.iws
+.idea/
+#.vscode/
+
+# Flutter / Dart / Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Android
+.android/
+.gradle/
+android/local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+**/*.keystore
+**/*.jks
+
+# iOS / macOS (Pods fuera, pero deja Podfile.lock)
+ios/Flutter/ephemeral/
+macos/Flutter/ephemeral/
+ios/Pods/
+macos/Pods/
+**/DerivedData/
+
+# Linux / Windows ephemeral
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# Symbolication / Ofuscación
+app.*.symbols
+app.*.map.json
+
+# Secrets / ENV / ENVied
+.env
+*.env
+*.env.*
+lib/core/env.g.dart
+
+# Certs (por si acaso)
+*.pem
+*.p12
+*.cer
+*.key
